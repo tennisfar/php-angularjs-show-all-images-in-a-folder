@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="php-to-js-array.php"></script>
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="scripts/app.js"></script>
+
+</head>
+<body ng-controller="MainCtrl">
+
+<ul>
+<li ng-repeat="image in images">
+    <img ng-src="{{image.src}}" title="{{image.modified}}"/>
+</li>
+</ul>
+
+</body>
+</html>

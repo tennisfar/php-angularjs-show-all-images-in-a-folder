@@ -2,7 +2,7 @@
   "name": "php-angularjs-show-all-images-in-a-folder",
   "version": "0.0.0",
   "description": "Small project to display all images in a folder, using PHP and AngularJS.",
-  "main": "index.php",
+  "main": "index.html",
   "dependencies": {
     "angular": "^1.3.10"
   },
